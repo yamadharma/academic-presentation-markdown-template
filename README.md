@@ -1,6 +1,6 @@
-# Шаблон статьи
+# Markdown based  Academic Presentation
 
-## Скачать репозиторий
+## Download repository
 
 git clone https://github.com/yamadharma/academic-presentation-markdown-template.git
 
