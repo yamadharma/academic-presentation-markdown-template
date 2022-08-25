@@ -1,41 +1,51 @@
 ---
 ## Front matter
 lang: ru-RU
-title: Structural approach to the deep learning method
-author: |
-	Leonid A. Sevastianov\inst{1,3}
-	\and
-	Anton L. Sevastianov\inst{1}
-	\and
-	Edik A. Ayrjan\inst{2}
-	\and
-	Anna V. Korolkova\inst{1}
-	\and
-	Dmitry S. Kulyabov\inst{1,2}
-	\and
-	Imrikh Pokorny\inst{4}
-institute: |
-	\inst{1}RUDN University, Moscow, Russian Federation
-	\and
-	\inst{2}LIT JINR, Dubna, Russian Federation
-	\and
-	\inst{3}BLTP JINR, Dubna, Russian Federation
-	\and
-	\inst{4}Technical University of Košice, Košice, Slovakia
-date: NEC--2019, 30 September -- 4 October, 2019 Budva, Montenegro
+title: Структура научной презентации
+subtitle: Простейший шаблон
+author:
+  - Кулябов Д. С.
+  - Королькова А. В.
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+  - Объединённый институт ядерных исследований, Дубна, Россия
+date: 01 января 1970
 
-## Formatting
+## Formatting pdf
 toc: false
 slide_level: 2
+aspectratio: 169
+section-titles: true
+toc: true
 theme: metropolis
-header-includes: 
+header-includes:
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
  - '\makeatletter'
  - '\beamer@ignorenonframefalse'
  - '\makeatother'
-aspectratio: 43
-section-titles: true
 ---
+
+# Информация
+
+## Докладчик
+
+:::::::::::::: {.columns align=center}
+::: {.column width="70%"}
+
+  * Кулябов Дмитрий Сергеевич
+  * д.ф.-м.н., профессор
+  * профессор кафедры прикладной информатики и теории вероятностей
+  * Российский университет дружбы народов
+  * [kulyabov-ds@rudn.ru](mailto:kulyabov-ds@rudn.ru)
+  * <https://yamadharma.github.io/ru/>
+
+:::
+::: {.column width="30%"}
+
+![](./image/kulyabov.jpg)
+
+:::
+::::::::::::::
 
 # Технологии
 

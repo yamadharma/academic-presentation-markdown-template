@@ -1,5 +1,5 @@
-# FILES = $(patsubst %.md, %.docx, $(wildcard *.md))
 FILES += $(patsubst %.md, %.pdf, $(wildcard *.md))
+FILES += $(patsubst %.md, %.html, $(wildcard *.md))
 
 FILTERS =
 PDF_ENGINE =
@@ -11,14 +11,13 @@ FILTERS += -F pandoc-crossref
 PDF_ENGINE += --pdf-engine=lualatex
 PDF_OPTIONS += --number-sections
 
-%.docx: %.md
-	-pandoc "$<" $(FILTERS) -o "$@"
+REVEALJS_THEME = moon
 
 %.pdf: %.md
 	-pandoc "$<" $(FILTERS) $(PDF_ENGINE) $(PDF_OPTIONS) $(PDF_FORMAT_OPTIONS) -o "$@"
 
-%.pdf: %.docx
-	-unoconv "$<" "$@"
+%.html: %.md
+	-pandoc "$<" -s -t revealjs -V theme=$(REVEALJS_THEME) -o "$@"
 
 all: $(FILES)
 	@echo $(FILES)
