@@ -17,7 +17,7 @@ REVEALJS_THEME = moon
 	-pandoc "$<" $(FILTERS) $(PDF_ENGINE) $(PDF_OPTIONS) $(PDF_FORMAT_OPTIONS) -o "$@"
 
 %.html: %.md
-	-pandoc "$<" -s -t revealjs -V theme=$(REVEALJS_THEME) -o "$@"
+	-pandoc "$<" --self-contained -t revealjs -V theme=$(REVEALJS_THEME) -o "$@"
 
 all: $(FILES)
 	@echo $(FILES)
