@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v1.0.1...v1.0.2) (2023-02-07)
+
+
+### Bug Fixes
+
+* **filters:** disable pandoc-crossref ([0c33e5d](https://github.com/yamadharma/academic-presentation-markdown-template/commit/0c33e5d18af2a4f96d246d8962e52ea292721b11))
+
+
+
 ## [1.0.1](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v1.0.0...v1.0.1) (2022-08-28)
 
 
