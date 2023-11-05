@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v1.0.2...v1.0.3) (2023-11-05)
+
+
+### Features
+
+* **presentation:** switch to xelatex ([198b73c](https://github.com/yamadharma/academic-presentation-markdown-template/commit/198b73c7c27df96f1b95a8733f1c3b399312fee5))
+
+
+
 ## [1.0.2](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v1.0.1...v1.0.2) (2023-02-07)
 
 
