@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v1.0.3...v1.0.4) (2024-08-31)
+
+
+### Bug Fixes
+
+* **presentation:** fix compilation ([7e754ff](https://github.com/yamadharma/academic-presentation-markdown-template/commit/7e754ff9ac64a589504f47b12973255a913861c6))
+
+
+
 ## [1.0.3](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v1.0.2...v1.0.3) (2023-11-05)
 
 

@@ -1,6 +1,6 @@
 {
     "name": "academic-presentation-markdown-template",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Presentation template",
     "main": "index.js",
     "repository": "git@github.com:yamadharma/academic-presentation-markdown-template.git",
