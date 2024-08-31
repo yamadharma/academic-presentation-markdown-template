@@ -23,9 +23,6 @@ section-titles: true
 theme: metropolis
 header-includes:
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
 ---
 
 # Информация
