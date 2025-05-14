@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.0.0...v2.0.1) (2025-05-14)
+
+
+### Bug Fixes
+
+* **presentation:** make cleanups ([6fd1f92](https://github.com/yamadharma/academic-presentation-markdown-template/commit/6fd1f92d685e397c0010da5972e12a7ede4daa16))
+
+
+
 # [2.0.0](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v1.0.4...v2.0.0) (2025-05-14)
 
 
