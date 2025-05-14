@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v1.0.4...v2.0.0) (2025-05-14)
+
+
+### Bug Fixes
+
+* **main:** fit directory structure ([0ba4c95](https://github.com/yamadharma/academic-presentation-markdown-template/commit/0ba4c953414bf52500e0e3dcf26f5785745f9255))
+
+
+### Features
+
+* **presentation:** move to quarto ([34afc71](https://github.com/yamadharma/academic-presentation-markdown-template/commit/34afc71b904920fd0fea246b9a691dc8570f5d7d))
+
+
+
 ## [1.0.4](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v1.0.3...v1.0.4) (2024-08-31)
 
 

@@ -1,0 +1,6 @@
+project:
+  title: "presentation"
+  output-dir: "_presentation"
+
+standalone: true
+self-contained: true

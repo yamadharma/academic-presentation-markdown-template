@@ -1,28 +1,54 @@
 ---
-## Front matter
-lang: ru-RU
-title: Структура научной презентации
-subtitle: Простейший шаблон
+# Preamble
+
+## Author
 author:
-  - Кулябов Д. С.
-institute:
-  - Российский университет дружбы народов, Москва, Россия
-  - Объединённый институт ядерных исследований, Дубна, Россия
-date: 01 января 1970
-
-## i18n babel
-babel-lang: russian
-babel-otherlangs: english
-
-## Formatting pdf
-toc: false
-toc-title: Содержание
-slide_level: 2
-aspectratio: 169
-section-titles: true
-theme: metropolis
-header-includes:
- - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+  name: Дмитрий Сергеевич Кулябов
+  degrees: DSc
+  orcid: 0000-0002-0877-7063
+  email: kulyabov-ds@rudn.ru
+  affiliation:
+    - name: Российский университет дружбы народов
+      country: Российская Федерация
+      postal-code: 117198
+      city: Москва
+      address: ул. Миклухо-Маклая, д. 6
+## Title
+title: Структура научной презентации
+subtitle: Простейший вариант
+license: CC BY
+date: 1970-01-01
+## Generic options
+lang: ru-RU
+crossref:
+  lof-title: Список иллюстраций
+  lot-title: Список таблиц
+  lol-title: Листинги
+## Formats
+format:
+### Pdf output format
+  beamer:
+    toc: true
+    toc-title: Содержание
+    number-sections: true
+    colorlinks: false
+    toc-depth: 2
+    slide_level: 2
+    aspectratio: 169
+    section-titles: true
+    theme: metropolis
+    themeoptions: progressbar=frametitle,sectionpage=progressbar,numbering=fraction
+#### Language
+    babel-lang: russian
+    babel-otherlangs: english
+### Html output
+  revealjs:
+    transition: slide
+    margin: 0.2
+    smaller: false
+    output-ext: html
+    theme: beige
+    logo: _resources/image/logo_rudn.png
 ---
 
 # Информация
@@ -34,8 +60,8 @@ header-includes:
 
   * Кулябов Дмитрий Сергеевич
   * д.ф.-м.н., профессор
-  * профессор кафедры прикладной информатики и теории вероятностей
-  * Российский университет дружбы народов
+  * профессор кафедры теории вероятностей и кибербезопасности
+  * Российский университет дружбы народов им. П. Лумумбы
   * [kulyabov-ds@rudn.ru](mailto:kulyabov-ds@rudn.ru)
   * <https://yamadharma.github.io/ru/>
 
@@ -108,7 +134,7 @@ theme: metropolis
 - Тема задаётся в файле `Makefile`
 
 ```make
-REVEALJS_THEME = beige 
+REVEALJS_THEME = beige
 ```
 # Результаты
 
@@ -155,7 +181,7 @@ REVEALJS_THEME = beige
 - Главное сообщение, которое вы хотите донести до слушателей
 - Избегайте использовать последний слайд вида *Спасибо за внимание*
 
-# Рекомендации
+# Рекомендую
 
 ## Принцип 10/20/30
 
@@ -204,4 +230,3 @@ REVEALJS_THEME = beige
 - Текст используется, если все предыдущие способы отображения информации не подошли
 
 :::
-
