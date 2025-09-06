@@ -1,3 +1,12 @@
+# [2.1.0](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.0.1...v2.1.0) (2025-09-06)
+
+
+### Features
+
+* **presentation:** add tinytex support ([60e8c7c](https://github.com/yamadharma/academic-presentation-markdown-template/commit/60e8c7c0dc6291a203edf607b500e6de929f7a1f))
+
+
+
 ## [2.0.1](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.0.0...v2.0.1) (2025-05-14)
 
 
