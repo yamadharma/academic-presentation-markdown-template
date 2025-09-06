@@ -1,6 +1,4 @@
 ---
-# Preamble
-
 ## Author
 author:
   name: Дмитрий Сергеевич Кулябов
@@ -17,38 +15,8 @@ author:
 title: Структура научной презентации
 subtitle: Простейший вариант
 license: CC BY
-date: 1970-01-01
-## Generic options
-lang: ru-RU
-crossref:
-  lof-title: Список иллюстраций
-  lot-title: Список таблиц
-  lol-title: Листинги
-## Formats
-format:
-### Pdf output format
-  beamer:
-    toc: true
-    toc-title: Содержание
-    number-sections: true
-    colorlinks: false
-    toc-depth: 2
-    slide_level: 2
-    aspectratio: 169
-    section-titles: true
-    theme: metropolis
-    themeoptions: progressbar=frametitle,sectionpage=progressbar,numbering=fraction
-#### Language
-    babel-lang: russian
-    babel-otherlangs: english
-### Html output
-  revealjs:
-    transition: slide
-    margin: 0.2
-    smaller: false
-    output-ext: html
-    theme: beige
-    logo: _resources/image/logo_rudn.png
+date: today
+date-format: "YYYY-MM-DD" # Example: 2025-09-06
 ---
 
 # Информация
