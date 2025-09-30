@@ -15,6 +15,7 @@ crossref:
 format:
 ### Pdf output format
   beamer:
+    pdf-engine: xelatex
     toc: true
     toc-title: Содержание
     number-sections: true
