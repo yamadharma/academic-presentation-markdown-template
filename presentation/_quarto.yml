@@ -26,15 +26,10 @@ format:
     section-titles: true
     incremental: true
     navigation: horizontal
-    theme: Montpellier
-    colortheme: seagull
-    # logo: _resources/image/logo_rudn.png
-    # theme: metropolis
-    # themeoptions: progressbar=frametitle,sectionpage=progressbar,numbering=fraction
     csquotes: true
     indent: true
-    header-includes: |
-      \usepackage{libertine}
+    include-in-header:
+      - file: _assets/beamer.tex
 #### Language
     babel-lang: russian
     babel-otherlangs: english

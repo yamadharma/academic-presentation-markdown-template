@@ -1,0 +1,18 @@
+\IfFileExists{plex-otf.sty}{
+  %% Full TeXlive
+  \usepackage[math,RM={Scale=0.94},SS={Scale=0.94},SScon={Scale=0.94},TT={Scale=MatchLowercase,FakeStretch=0.9},DefaultFeatures={Ligatures=Common}]{plex-otf}
+}{
+  %% TinyTeX
+  \usepackage{libertine}
+}
+
+%%% Load theme
+% https://deic.uab.cat/~iblanes/beamer_gallery/
+\IfFileExists{beamerthememetropolis.sty}{
+  %% Full TeXlive
+  \usetheme{metropolis}
+  \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+}{
+  %% TinyTeX
+  \usetheme{Madrid}
+}
