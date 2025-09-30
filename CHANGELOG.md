@@ -1,3 +1,13 @@
+# [2.2.0](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.1.0...v2.2.0) (2025-09-30)
+
+
+### Features
+
+* **quarto:** load theme depenging on texlive flavor ([8cf79db](https://github.com/yamadharma/academic-presentation-markdown-template/commit/8cf79db770f1678ec532d359c34f99762f75c236))
+* **quarto:** switch to xelatex ([65049a2](https://github.com/yamadharma/academic-presentation-markdown-template/commit/65049a2dbe8d0dc99dcbba6cb477c8e821b16927))
+
+
+
 # [2.1.0](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.0.1...v2.1.0) (2025-09-06)
 
 
