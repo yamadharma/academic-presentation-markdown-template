@@ -1,3 +1,12 @@
+## [2.2.1](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.2.0...v2.2.1) (2025-10-16)
+
+
+### Bug Fixes
+
+* **style:** fix load plex-otf ([4d8491d](https://github.com/yamadharma/academic-presentation-markdown-template/commit/4d8491d82fd7ce72fc44eb4bc78f45f42c3a2cf0))
+
+
+
 # [2.2.0](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.1.0...v2.2.0) (2025-09-30)
 
 
