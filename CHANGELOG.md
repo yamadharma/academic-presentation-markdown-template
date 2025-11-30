@@ -1,3 +1,12 @@
+## [2.3.1](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.3.0...v2.3.1) (2025-11-30)
+
+
+### Features
+
+* **presentation:** switch to gothem theme ([5e7e477](https://github.com/yamadharma/academic-presentation-markdown-template/commit/5e7e477ef563aba4a06d858eecfe79c5d49ef912))
+
+
+
 ## [2.2.1](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.2.0...v2.2.1) (2025-10-16)
 
 
