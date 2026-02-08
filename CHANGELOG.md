@@ -1,3 +1,12 @@
+## [2.3.2](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.3.1...v2.3.2) (2026-02-08)
+
+
+### Bug Fixes
+
+* **main:** update main dir ([ce08bba](https://github.com/yamadharma/academic-presentation-markdown-template/commit/ce08bbafd59d59f6cdc6575df49578159043545f))
+
+
+
 ## [2.3.1](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.3.0...v2.3.1) (2025-11-30)
 
 
