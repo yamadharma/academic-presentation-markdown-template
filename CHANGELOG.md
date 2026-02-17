@@ -1,3 +1,12 @@
+## [2.3.3](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.3.2...v2.3.3) (2026-02-17)
+
+
+### Bug Fixes
+
+* **quarto:** remove explicite xelatex ([8a661b0](https://github.com/yamadharma/academic-presentation-markdown-template/commit/8a661b057fcc28949a5d14c77fd1f86d7b2a4d80))
+
+
+
 ## [2.3.2](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.3.1...v2.3.2) (2026-02-08)
 
 
