@@ -20,7 +20,7 @@ format: # Formats
     toc-depth: 1
     aspectratio: 169
     section-titles: true
-    incremental: true
+    incremental: false
     navigation: horizontal
     csquotes: true
     indent: true
