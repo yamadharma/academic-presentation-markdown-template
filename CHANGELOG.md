@@ -1,3 +1,17 @@
+# [2.4.0](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.3.3...v2.4.0) (2026-04-20)
+
+
+### Bug Fixes
+
+* **theme:** set incremental=false ([887166d](https://github.com/yamadharma/academic-presentation-markdown-template/commit/887166db10f10ef6305c2999d4f703b8632c3bf6))
+
+
+### Features
+
+* **presentation:** update content ([43db3d6](https://github.com/yamadharma/academic-presentation-markdown-template/commit/43db3d667689afcdb8ef50a79d5ae5ef1976834b))
+
+
+
 ## [2.3.3](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.3.2...v2.3.3) (2026-02-17)
 
 
