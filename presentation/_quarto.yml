@@ -4,6 +4,7 @@ project:
 
 standalone: true
 self-contained: true
+embed-resources: true
 slide-level: 2
 lang: ru-RU
 crossref:
@@ -15,9 +16,9 @@ format: # Formats
     toc: true
     toc-title: Содержание
     number-sections: false
-    number-depth: 1
+    number-depth: 2
     colorlinks: false
-    toc-depth: 1
+    toc-depth: 2
     aspectratio: 169
     section-titles: true
     incremental: false
