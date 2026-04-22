@@ -12,12 +12,11 @@ author:
       city: Москва
       address: ул. Миклухо-Маклая, д. 6
 ## Title
-title: Структура научной презентации
-subtitle: Простейший вариант
+title: Научная презентация
+subtitle: Структура и оформление
 license: CC BY
 date: today
 date-format: "YYYY-MM-DD" # Example: 2025-09-06
-institute: Российский университет дружбы народов
 ---
 
 # Информация

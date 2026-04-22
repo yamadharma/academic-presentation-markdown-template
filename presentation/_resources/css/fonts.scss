@@ -1,0 +1,47 @@
+/*-- scss:rules --*/
+/* lato-regular - latin_latin-ext */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../../../../../_resources/fonts/lato-v25-latin_latin-ext-regular.woff2")
+		format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lato-italic - latin_latin-ext */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Lato";
+	font-style: italic;
+	font-weight: 400;
+	src: url("../../../../../_resources/fonts/lato-v25-latin_latin-ext-italic.woff2")
+		format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lato-700 - latin_latin-ext */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../../../../../_resources/fonts/lato-v25-latin_latin-ext-700.woff2")
+		format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lato-700italic - latin_latin-ext */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Lato";
+	font-style: italic;
+	font-weight: 700;
+	src: url("../../../../../_resources/fonts/lato-v25-latin_latin-ext-700italic.woff2")
+		format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/*-- scss:defaults --*/
+$web-font-path: false; // Disables the import of Google Fonts
+$font-family-sans-serif:
+	"Lato",
+	-apple-system,
+	BlinkMacSystemFont,
+	sans-serif;
