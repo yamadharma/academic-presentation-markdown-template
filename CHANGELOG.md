@@ -1,3 +1,19 @@
+# [2.5.0](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.4.0...v2.5.0) (2026-04-22)
+
+
+### Bug Fixes
+
+* **content:** add incremental ([d41c32e](https://github.com/yamadharma/academic-presentation-markdown-template/commit/d41c32e564f76e226c77497bf981e7d2638fe01d))
+* **theme:** add inverted logo ([a37d051](https://github.com/yamadharma/academic-presentation-markdown-template/commit/a37d051ba4dac7493c907a5eccbd9435b6b104ab))
+
+
+### Features
+
+* **theme:** add local fonts ([889a323](https://github.com/yamadharma/academic-presentation-markdown-template/commit/889a323d48e870e20fd7c2034ab6c24bc757ec52))
+* **theme:** add logo ([8d3fcb5](https://github.com/yamadharma/academic-presentation-markdown-template/commit/8d3fcb5ef47050d128d3c0be38ce0fb94d7bb0a4))
+
+
+
 # [2.4.0](https://github.com/yamadharma/academic-presentation-markdown-template/compare/v2.3.3...v2.4.0) (2026-04-20)
 
 
