@@ -3,20 +3,21 @@
   %%%% Full TeXlive
   \usetheme{gotham}
   \gothamset{
-    numbering=totalpagenumber,
+    numbering=totalframenumber,
     parttocframe default=off,
     sectiontocframe default=off,
     subsectiontocframe default=off,
     tocframe template=gotham bullet,
-    progressbar position=frametitle,
+    % progressbar position=frametitle,
+    progressbar position=foot,
   }
   \renewcommand{\gothamInstituteLogoSquare}[1][4ex]{%
-    \includegraphics[height=##1]{_resources/image/logo_rudn.png}
+    \includegraphics[height=##1]{_resources/image/logo_rudn-inverted.png}
   }
   % \renewcommand{\gothamtitlepagelogo}[1][4ex]{%
   %   \includegraphics[height=##1]{_resources/image/logo_rudn.png}
   % }
-}{
+}{%
   %%%% TinyTeX
   \usepackage{libertine}
   %%%% https://deic.uab.cat/~iblanes/beamer_gallery/
