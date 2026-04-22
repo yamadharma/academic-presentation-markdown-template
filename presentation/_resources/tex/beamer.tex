@@ -1,25 +1,23 @@
-% \IfFileExists{plex-otf.sty}{
-%   %% Full TeXlive
-%   \usepackage[%
-%     % math,
-%     RM={Scale=0.94},SS={Scale=0.94},SScon={Scale=0.94},TT={Scale=MatchLowercase,FakeStretch=0.9},DefaultFeatures={Ligatures=Common}
-%   ]{plex-otf}
-% }{
-%   %% TinyTeX
-%   \usepackage{libertine}
-% }
-
 %%% Load theme
 \IfFileExists{beamerthemegotham.sty}{
   %%%% Full TeXlive
   \usetheme{gotham}
   \gothamset{
-    numbering=totalpagenumber,
+    numbering=totalframenumber,
     parttocframe default=off,
     sectiontocframe default=off,
     subsectiontocframe default=off,
+    tocframe template=gotham bullet,
+    % progressbar position=frametitle,
+    progressbar position=foot,
   }
-}{
+  \renewcommand{\gothamInstituteLogoSquare}[1][4ex]{%
+    \includegraphics[height=##1]{_resources/image/logo_rudn-inverted.png}
+  }
+  % \renewcommand{\gothamtitlepagelogo}[1][4ex]{%
+  %   \includegraphics[height=##1]{_resources/image/logo_rudn.png}
+  % }
+}{%
   %%%% TinyTeX
   \usepackage{libertine}
   %%%% https://deic.uab.cat/~iblanes/beamer_gallery/
